@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px) {
+    header{
+        max-width: 560px;
+        margin: 0 auto;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-title{
+        color: #FFF;
+        font-size: 1.375em;
+        padding-top: 50px;
+    }
+    .banner-description{
+        max-width: 360px;
+        margin: 20px auto;
+        color: #FFF;
+        font-size: 0.875em;
+        line-height: 1.3125;
+        font-weight: 400;
+    }
+    .search-options{
+        max-width: 360px;
+        margin: 0 auto;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search{
+        margin: 10px;
+    }
+    input{
+        border-radius: 8px;
+        background: #FFF;
+        padding: 10px;
+        border: 0;
+        width: 255px;
+    }
+    .select-type{
+        border-radius: 8px;
+        background: #FFF;
+        padding: 10px;
+        border: 0;
+        width: 255px;
+    }
+    .banner-btn{
+        background-color: #FF5400;
+        color: #FFF;
+        padding: 10px 15px;
+        border-radius: 8px;
+        border: 0;
+        font-weight: 700;
+        width: 255px;
+    }
+    main{
+        max-width: 560px;
+        margin: 30px auto;
+    }
+    .popular-tour{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .popular-tour-img img{
+        width: 100%;
+    }
+
+    .first-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .second-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .third-row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .card img{
+        height: 335px;
+        width: 100%;
+    }
+    .why-choose{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .why-choose .general-description{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .why-choose-card{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .newsletter{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .newsletter-content .primary-btn{
+        margin-bottom: 20px;
+    }
+    .newsletter-img img{ 
+        width: 100%;
+    }
+    .offer-text{
+        width: 40%;
+        transform: rotate(-19.628deg);
+        top: 64%;
+        left: 58%;
+    }
+}

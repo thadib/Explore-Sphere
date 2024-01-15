@@ -10,6 +10,26 @@
 .secondary-color{
     color: #FF5400;
 }
+.general-title{
+    color: #131318;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.general-description{
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 1.625em;
+    margin: 15px 0;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+}
 
 
 
@@ -80,6 +100,7 @@ nav{
     background: rgba(255, 255, 255, 0.30);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .search{
     margin: 10px;
@@ -96,12 +117,210 @@ input{
     padding: 10px;
     border: 0;
 }
-.primary-btn{
+.banner-btn{
     background-color: #FF5400;
     color: #FFF;
-    margin: 15px 0;
-    padding: 0 15px;
+    padding: 10px 15px;
     border-radius: 8px;
     border: 0;
     font-weight: 700;
+}
+
+
+
+main{
+    max-width: 1180px;
+    margin: 80px auto;
+}
+.popular-tour{
+    display: flex;
+    gap: 50px;
+}
+
+.destination{
+    text-align: center;
+    margin-top: 80px;
+}
+.destination .general-description{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+.first-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+}
+.second-row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+}
+.third-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+.card{
+    position: relative;
+    display: inline-block;
+}
+.card img{
+    display: block;
+}
+.title{
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.why-choose{
+    margin-top: 80px;
+    text-align: center;
+}
+.why-choose .general-description{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.why-choose-card{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+.hand-picked{
+    max-width: 573px;
+    padding: 25px;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.hand-picked img{
+    width: 64px;
+    height: 64px;
+}
+.world-class-service{
+    max-width: 573px;
+    padding: 25px;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.world-class-service img{
+    width: 64px;
+    height: 64px;
+}
+.best-price{
+    max-width: 543px;
+    margin: 24px auto 0;
+    padding: 25px;
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.why-choose-card-title{
+    margin-top: 25px;
+    color: #131318;
+    font-size: 1.5em;
+}
+.why-choose-card-description{
+    width: 486px;
+    margin-top: 10px;
+    color: #5A5A5D;
+}
+
+
+.newsletter{
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+.newsletter-content{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 0 30px;
+}
+.line{
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px auto;
+
+}
+.newsletter-content input{
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 20px;
+    color: rgba(19, 19, 24, 0.30);
+}
+.newsletter-content .primary-btn{
+    width: 100%;
+}
+.newsletter-img{
+    position: relative;
+    display: inline-block;
+}
+.newsletter-img img{ 
+    display: block;
+}
+.offer-text{
+    width: 324px;
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 16px;
+    padding: 20px;
+    transform: rotate(-19.628deg);
+    top: 66%;
+    left: 51%;
+}
+
+
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0;
+}
+.footer-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
+}
+.footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    line-height: 1.625em; 
+}
+.icon{
+    max-width: 200px;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+.icon ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon ul li{
+    list-style: none;
+}
+.icon img{
+    width: 100%;
 }
