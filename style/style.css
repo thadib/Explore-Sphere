@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.secondary-color{
+    color: #FF5400;
+}
+
+
+
+
+
+
+header{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h3{
+    font-size: 2.25em;
+    font-weight: 800;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-menu ul li a{
+    color: #424247;
+    text-decoration: none;
+}
+.color-menu{
+    margin-right: 20px;
+    color: #FF5400;
+    text-decoration: none;
+}
+
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    text-align: center;
+    height: 500px;
+    margin-top: 30px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4em;
+    padding-top: 100px;
+}
+.banner-description{
+    max-width: 676px;
+    margin: 20px auto;
+    color: #FFF;
+    line-height: 1.625;
+    font-weight: 400;
+}
+.search-options{
+    max-width: 645px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+}
+.search{
+    margin: 10px;
+}
+input{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px;
+    border: 0;
+}
+.select-type{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px;
+    border: 0;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    margin: 15px 0;
+    padding: 0 15px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+}
