@@ -130,6 +130,11 @@
         max-width: 100%;
         text-align: left;
     }
+    .perfect-place{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
     .newsletter{
         flex-direction: column;
         margin-top: 30px;

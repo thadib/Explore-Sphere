@@ -188,7 +188,6 @@ main{
     transform: translate(-50%, -50%);
 }
 
-
 .why-choose{
     margin-top: 80px;
     text-align: center;
@@ -299,6 +298,20 @@ main{
     border: 2px solid #131318;
     border-radius: 50%;
     padding: 5px;
+}
+
+
+.perfect-place{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+}
+.perfect-place-content li{
+    color: #131318;
+    line-height: 1.625em;
+}
+.perfect-place-video iframe{
+    border-radius: 16px;
 }
 
 
