@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     header{
-        max-width: 560px;
+        max-width: 540px;
         margin: 0 auto;
     }
     .nav-menu{
@@ -59,7 +59,7 @@
         width: 255px;
     }
     main{
-        max-width: 560px;
+        max-width: 540px;
         margin: 30px auto;
     }
     .popular-tour{
@@ -68,6 +68,10 @@
     }
     .popular-tour-img img{
         width: 100%;
+    }
+    .destination .general-description{
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     .first-row{
@@ -102,9 +106,17 @@
         margin-top: 30px;
         flex-direction: column;
     }
+    .why-choose-card-description{
+        width: 350px;
+        margin-top: 10px;
+        color: #5A5A5D;
+    }
     .testimonial{
         margin-top: 30px;
         text-align: center;
+    }
+    .testimonial .general-title{
+        max-width: 100%;
     }
     .testimonial .general-description{
         max-width: 100%;
@@ -133,5 +145,12 @@
         transform: rotate(-19.628deg);
         top: 64%;
         left: 58%;
+    }
+    .footer{
+        padding: 100px 30px;
+    }
+    .footer-description{
+        max-width: 100%;
+        margin: 0 auto;
     }
 }

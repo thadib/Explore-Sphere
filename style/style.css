@@ -20,6 +20,11 @@
     line-height: 1.625em;
     margin: 15px 0;
 }
+.secondary-description{
+    color: #131318;
+    font-size: 1em;
+    font-weight: 300;
+}
 .primary-btn{
     background-color: #FF5400;
     color: #FFF;
@@ -147,7 +152,7 @@ main{
     margin-top: 80px;
 }
 .destination .general-description{
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -189,7 +194,7 @@ main{
     text-align: center;
 }
 .why-choose .general-description{
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
 }
 .why-choose-card{
@@ -244,11 +249,16 @@ main{
 
 .testimonial{
     margin-top: 80px;
+}
+.testimonial .general-title{
+    max-width: 60%;
+    margin: 0 auto;
     text-align: center;
 }
 .testimonial .general-description{
     max-width: 60%;
     margin: 0 auto 30px;
+    text-align: center;
 }
 
 .testimonial-card-container{
@@ -361,21 +371,18 @@ main{
     color: #5A5A5D;
     text-align: center;
     line-height: 1.625em; 
+    max-width: 70%;
+    margin: 0 auto;
 }
 .icon{
-    max-width: 200px;
+    width: 200px;
     display: flex;
-    text-align: center;
-    gap: 30px;
-}
-.icon ul{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.icon ul li{
-    list-style: none;
+    justify-content: space-between;
+    margin: 20px auto 0;
 }
 .icon img{
-    width: 100%;
+    width: 40px;
+}
+.footer .secondary-description{
+    text-align: center;
 }
